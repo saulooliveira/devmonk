@@ -1,12 +1,17 @@
 name: Demonk
 
 on:
-  pull_request:
-    branches: 
-      - develop
   push:
+    branches:
+      - develop
     tags: 
       - '*'
+  pull_request:
+    branches:
+      - develop
+    types: 
+      - ready_for_review
+      - review_requested
   workflow_dispatch:
 
 env:
