@@ -1,13 +1,13 @@
 name: Demonk
 
 on:
-  workflow_dispatch:
   pull_request:
     branches: 
       - develop
   push:
     tags: 
       - '*'
+  workflow_dispatch:
 
 env:
   CAMINHO_PROJETO_TESTES: ./Devmonk.API.Tests
