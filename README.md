@@ -46,6 +46,7 @@ git push -u origin master
 	- wq! para sair
 - git push --force
 
+
 # Como subir branchs
 - git push origin develop
 
