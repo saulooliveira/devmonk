@@ -46,6 +46,9 @@ git push -u origin master
 	- wq! para sair
 - git push --force
 
+# Como subir branchs
+- git push origin develop
+
 
 https://docs.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
 https://renatogroffe.medium.com/net-5-cobertura-de-testes-com-coverlet-7cbec2f052d9
