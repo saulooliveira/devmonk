@@ -1,3 +1,5 @@
+dotnet tool install --global dotnet-sonarscanner
+
 dotnet new sln -o Devmonk
 dotnet new webapi --no-openapi=true -name Devmonk.API
 dotnet sln add ./Devmonk.API/Devmonk.API.csproj
@@ -28,6 +30,7 @@ git push -u origin master
 
 https://docs.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
 https://renatogroffe.medium.com/net-5-cobertura-de-testes-com-coverlet-7cbec2f052d9
+https://www.seeleycoder.com/blog/sonarqube-with-github-actions-and-net-core-5-x/?ref=morioh.com&utm_source=morioh.com
 
 https://github.com/github/gitignore
 https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
