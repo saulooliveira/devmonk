@@ -71,7 +71,7 @@ jobs:
         path: ${{ env.CAMINHO_RELATORIO_ERROS }}
         retention-days: 30
     
-  tests:
+  sonar:
     needs: [build]
     runs-on: windows-latest
     steps:
