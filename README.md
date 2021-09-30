@@ -1,8 +1,6 @@
 [![Demonk](https://github.com/saulooliveira/devmonk/actions/workflows/demonk.yml/badge.svg)](https://github.com/saulooliveira/devmonk/actions/workflows/demonk.yml)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=saulooliveira_devmonk&metric=coverage)](https://sonarcloud.io/dashboard?id=saulooliveira_devmonk)
-
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=saulooliveira_devmonk&metric=bugs)](https://sonarcloud.io/dashboard?id=saulooliveira_devmonk)
-
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=saulooliveira_devmonk&metric=security_rating)](https://sonarcloud.io/dashboard?id=saulooliveira_devmonk)
 
 
