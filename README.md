@@ -5,6 +5,17 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=saulooliveira_devmonk&metric=security_rating)](https://sonarcloud.io/dashboard?id=saulooliveira_devmonk)
 
 
+# How to start
+
+```bash=
+git clone https://github.com/saulooliveira/devmonk.git
+dotnet restore
+cd Devmonk.API
+dotnet run
+```
+
+
+
 
 dotnet tool install --global dotnet-sonarscanner
 
@@ -39,6 +50,7 @@ git push -u origin master
 https://docs.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
 https://renatogroffe.medium.com/net-5-cobertura-de-testes-com-coverlet-7cbec2f052d9
 https://www.seeleycoder.com/blog/sonarqube-with-github-actions-and-net-core-5-x/?ref=morioh.com&utm_source=morioh.com
+https://sonarcloud.io/projects
 
 https://github.com/github/gitignore
 https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
